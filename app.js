@@ -24,7 +24,7 @@ $(document).ready(function(){
         }
         else{
             $("#eror").hide();
-            alert(liste);
+            alert("Siparisin Verildi: "+liste);
         }
        
       
@@ -39,7 +39,7 @@ $(document).ready(function(){
         ilce = $("#state").val();
         not = $("#not").val();
         
-        siparisEkle("Siparisin Verildi: ",isim,soyisim,mail,adres,sehir,ilce,not);
+        siparisEkle(isim,soyisim,mail,adres,sehir,ilce,not);
         
         
     })
