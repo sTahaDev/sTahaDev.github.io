@@ -3,7 +3,25 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    height: auto;
     
+}
+#namebg{
+    position: absolute;
+}
+#nameinput{
+    margin-top: 100px;
+    margin-left: 25%;
+    width: 600px;
+    height: 400px;
+    position:absolute;
+    background-color: whitesmoke;
+}
+#bg{
+    background-color: #36393e;
+    width: 1320px;
+    height: 612px;
 }
 .main{
     display: flex;
@@ -20,6 +38,9 @@ body{
 }
 .navbar p{
     font-weight: bold;
+}
+.userimg{
+    border-radius: 50%;
 }
 .users{
     overflow: hidden;
@@ -61,6 +82,8 @@ body{
    
 }
 .inputs{
+    padding-top: 10px;
+    
     bottom: 0px;
     position: fixed;
     width: 230px;
@@ -69,11 +92,11 @@ body{
     
     
 }
-.inputs input{
-    
-    margin-left: 10px;
-    border-radius: 50%;
+.inputss{
+    margin-left: 25px;
 }
+
+
 .inputs svg{
     margin-left: 6px;
     margin-bottom: 7px;
